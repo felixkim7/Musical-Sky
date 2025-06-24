@@ -62,21 +62,21 @@ function preload() {
     // midiFile = loadBytes('The_Field_of_Hopes_and_Dreams_Deltarune.mid');
 
 
-    cube1Imgs[0] = loadImage("test/right1.png");
-    cube1Imgs[1] = loadImage("test/left1.png");
-    cube1Imgs[2] = loadImage("test/top1.png");
-    cube1Imgs[3] = loadImage("test/bottom1.png");
-    cube1Imgs[4] = loadImage("test/front1.png");
-    cube1Imgs[5] = loadImage("test/back1.png");
+    cube1Imgs[0] = loadImage("right1.png");
+    cube1Imgs[1] = loadImage("left1.png");
+    cube1Imgs[2] = loadImage("top1.png");
+    cube1Imgs[3] = loadImage("bottom1.png");
+    cube1Imgs[4] = loadImage("front1.png");
+    cube1Imgs[5] = loadImage("back1.png");
     skyboxShader = loadShader('skybox.vert', 'skybox.frag');
     envShader = loadShader('envmap.vert', 'envmap.frag');
 
-    cube2Imgs[0] = loadImage("night/right.png");
-    cube2Imgs[1] = loadImage("night/left.png");
-    cube2Imgs[2] = loadImage("night/top.png");
-    cube2Imgs[3] = loadImage("night/bottom.png");
-    cube2Imgs[4] = loadImage("night/front.png");
-    cube2Imgs[5] = loadImage("night/back.png");
+    cube2Imgs[0] = loadImage("right.png");
+    cube2Imgs[1] = loadImage("left.png");
+    cube2Imgs[2] = loadImage("top.png");
+    cube2Imgs[3] = loadImage("bottom.png");
+    cube2Imgs[4] = loadImage("front.png");
+    cube2Imgs[5] = loadImage("back.png");
     img = loadImage('grass2.png');
 }
 
